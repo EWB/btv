@@ -34,3 +34,8 @@ sites/simpletest
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
+
+
+#Various and Sundry
+
+.DS_Store
