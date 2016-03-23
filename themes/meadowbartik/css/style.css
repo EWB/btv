@@ -1,2 +1,50 @@
 /*css styles for meadowbartik theme*/
 
+body  {
+	font-size: 18px;
+    font-family: "Avenir", "Helvetica", sans-serif;
+    color: #333333;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.region-primary-menu {
+    background-color: #2E5659;
+    border-color: #2E5659;
+}
+.region-primary-menu .menu a {
+    color: #fff;
+    background: #2E5659;
+}
+.region-primary-menu .menu a:hover,
+.region-primary-menu .menu a:focus {
+  background: #2E5659;
+}
+.region-primary-menu .menu a:active {
+  background: #2E5659;
+}
+.region-primary-menu .menu-item a.is-active {
+  border-bottom: none;
+}
+/*ewb this section is all about the background colors*/
+#header, #page-wrapper, #page {
+	background: #f0f0f0;
+	background: #fff;
+}
+.region-header, .main-wrapper, .layout-container, .region-highlighted, .featured-top, .featured-bottom  {
+	background:#fff;
+	border-top:#fff;
+	border-bottom:#fff;
+}
+.site-footer .layout-container {
+	background: #292929;
+}
+
+/*ewb with a bit of a hack to keep frontpage content hidden*/
+.view-frontpage {
+	display:none;
+}	
+
+.layout-main-wrapper {
+     min-height: 30px; /*ewb override*/
+}
