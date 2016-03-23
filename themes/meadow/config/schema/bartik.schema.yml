@@ -1,5 +1,0 @@
-# Schema for the configuration files of the meadow theme.
-
-meadow.settings:
-  type: theme_settings
-  label: 'meadow settings'
