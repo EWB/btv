@@ -18,7 +18,7 @@ body  {
 }
 .container {
 	background: #fff;
-	margin-top:-23px;
+/*	margin-top:-23px;*/
 	padding-bottom:64px;
 }
 /*ewb adding styles for the navigation*/
@@ -50,4 +50,16 @@ body  {
 .view-frontpage {
 	display:none;
 }	
+
+
+/*Views*/
+.view-front-feature .views-view-grid .views-col {
+    display: inline-block;
+    max-width: 340px;
+    min-width: 220px;
+    padding:0 25px 0 25px;
+}
+
+
+
 

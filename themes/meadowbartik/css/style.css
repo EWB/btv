@@ -7,7 +7,17 @@ body  {
     font-weight: 300;
     line-height: 150%;
 }
+#header {
+	background: #2E5659;
+}
 
+#block-mainnavigation {
+	width:100%;
+	background: #2E5659;
+}
+ul.sf-menu.menu li {
+  background-color: #2E5659;
+}
 .region-primary-menu {
     background-color: #2E5659;
     border-color: #2E5659;
@@ -15,6 +25,8 @@ body  {
 .region-primary-menu .menu a {
     color: #fff;
     background: #2E5659;
+    text-shadow: 0;
+    border-radius: 0;
 }
 .region-primary-menu .menu a:hover,
 .region-primary-menu .menu a:focus {
