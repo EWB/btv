@@ -46,6 +46,11 @@ body  {
 }
 }
 
+@media screen and (min-width: 992px) {
+.navbar.container {
+    max-width: 970px;
+}
+}
 
 @media screen and (min-width: 1200px) {
 .navbar.container {
