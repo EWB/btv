@@ -35,6 +35,11 @@ body  {
     padding-right: 0px; 
     padding-left: 0px; 
     }
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus  {
+    color:yellow;
+
+}    
 @media screen and (max-width: 768px){
 .navbar.container {
     max-width: 750px;
@@ -45,6 +50,7 @@ body  {
     max-width: 970px;
 }
 }
+
 
 @media screen and (min-width: 992px) {
 .navbar.container {
@@ -98,12 +104,12 @@ body  {
 
 
 /*Views*/
-.view-front-feature .views-view-grid .views-col {
+/*.view-front-feature .views-view-grid .views-col {
     display: inline-block;
     max-width: 340px;
     min-width: 220px;
     padding:0 25px 0 25px;
-}
+}*/
 
 
 img.img-responsive {
@@ -123,6 +129,7 @@ img.img-responsive {
     padding: 10px 30px 50px 30px;
     
 }
+
 
 
 /*@media only screen and (max-width: 9000px) {
