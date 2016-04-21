@@ -23,7 +23,11 @@ body  {
 /*	margin-top:-23px;*/
 	padding-bottom:64px;
 }
+.path-node .page-header {
+    margin-top: 24px;
+}
 /*ewb adding styles for the navigation*/
+
 .navbar {
     margin-bottom:0px;
 }
@@ -39,7 +43,17 @@ body  {
 .navbar-default .navbar-nav > li > a:focus  {
     color:yellow;
 
-}    
+} 
+header#navbar {
+    padding-bottom: 0;
+}
+ 
+.path-frontpage .col-sm-12 {
+    padding-left: 0px;
+    padding-right:0px;
+    margin-top: -1px;
+}
+
 @media screen and (max-width: 768px){
 .navbar.container {
     max-width: 750px;
@@ -70,9 +84,7 @@ body  {
     border-color: #2E5659;
     width: 100%;
 }
-.navbar-default {
-    border-color: #fff; 
-}
+
 .navbar-default .navbar-collapse,  {
 	background:#fff;
 
@@ -83,6 +95,9 @@ body  {
 .highlighted img {
 	max-width: 100%;
 	height: auto;
+}
+#block-splashimage-2 img {
+    width: 100%;
 }
 .footer {
     padding-top:0;
@@ -129,8 +144,30 @@ img.img-responsive {
     
 }
 
+.btn-primary {
+    color: #fff;
+    border-color: yellow;
+}
 
-
+.jumbotron {
+    margin-bottom:15px;
+    background-image:url('http://btv.meadowsweet.org/sites/default/files/inline-images/cherry-blossoms-c.jpg');
+    background-size: 100%;
+    background-position-y: center;
+    padding-top:30px;
+    background-size:cover;
+    border-radius: 0px;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+    border-radius: 0px;
+}
+#jumbotron-text {
+	background-color:rgba(0, 0, 0, 0.5);
+	padding:44px;
+	margin:44px 0 64px 0;
+	color:#ffffff;
+	border-radius: 6px;
+}
 /*@media only screen and (max-width: 9000px) {
 
   .navbar-collapse.collapse {
