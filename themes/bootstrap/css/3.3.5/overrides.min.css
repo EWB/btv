@@ -157,6 +157,7 @@ img.img-responsive {
     padding-top:30px;
     background-size:cover;
     border-radius: 0px;
+    min-height: 400px;
 }
 .container .jumbotron, .container-fluid .jumbotron {
     border-radius: 0px;
